@@ -202,7 +202,7 @@ font-family: "Open Sans", sans-serif;
 
 
 .About-div{
-    height: 100vh;
+    height: 140vh;
     width: 100%;
    background: radial-gradient(circle, rgba(26, 21, 21, 0),rgba(1, 1, 1, 0.16));
    display: flex;
@@ -260,24 +260,21 @@ li img{
 }
 
 .service{
-    height: 373px;
+    height: 200px;
     width: 50%;
     background-color: white;
     list-style: none;
     display: flex;
     flex-direction: row;
-    
-
+    justify-content: center;
+    background: transparent;
+        
     
 }
 
 
 
-.design{
-   color: #000; 
-   padding: 40px;
-   
-}
+
 
 .d-img{
     height: 20px;
@@ -285,4 +282,91 @@ li img{
     justify-content: flex-start;
 
 }
+
+.des-p{
+    font-size: 10px;
+}
+
+
+
+.Skills-btn {
+    color: #000;
+    padding: 8px 40px;
+    margin-top: 35px;
+    list-style: none;
+    border: 2px solid black; 
+  background-color: transparent;
+ 
+  
+  
+}
+
+.using-d{
+    padding-top: 19px;
+    color: black;
+    margin-right: 20%;
+    list-style: none;
+    font-weight: bold;
+    
+    
+}
+
+
+.program-div{
+    height: 20vh;
+    /* background-color: white; */
+    width:100%;
+    margin-top: 1%;
+    list-style: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24%;
+}
+
+
+
+
+
+.tools-img{
+    height: 40px;
+    width: 40px;
+    align-content: center;
+}
+
+
+ .tools-p {
+    color: rgb(0, 0, 0);
+    margin-top: -40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: small;
+    
+ }
+
+
+
+
+.port-div{
+    height: 120vh;
+    width: 100%;
+  background-color: #000;
+   /* display: flex; */
+   /* flex-direction: column; */
+   align-items: center;
+    text-align: center;
+   
+}
+
+
+
 
