@@ -151,7 +151,7 @@ h2 {
 }
 
 .About-div {
-  height: 140vh;
+  height: 190vh;
   width: 100%;
   background: radial-gradient(circle, rgba(26, 21, 21, 0), rgba(1, 1, 1, 0.16));
   display: flex;
@@ -275,7 +275,7 @@ h2 {
 
 .portfolio {
   width: 100%;
-  height: 905px;
+  height: 1305px;
   background-color: rgba(26, 26, 26, 1);
 }
 
@@ -306,7 +306,7 @@ h2 {
   justify-content: center;
   list-style: none;
   flex-direction: row;
-  padding-top: 15px;
+  padding-top: 12px;
   font-size: 14px;
   gap: 2%;
 }
@@ -314,10 +314,5 @@ h2 {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
-  gap: 1%;
-}
-
-.project-im {
-  height: 200px;
-  width: 100%;
+  gap: 2%;
 }
